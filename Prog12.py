@@ -1,9 +1,9 @@
 # Find Greatest among 3 no.
 
 a, b, c = input("Enter 3 no. : ").split()
-a=int(a)
-b=int(b)
-c=int(c)
+a = int(a)
+b = int(b)
+c = int(c)
 
 if a > b and a > c:
     print(a, " is greatest")
