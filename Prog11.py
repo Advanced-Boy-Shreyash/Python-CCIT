@@ -1,8 +1,10 @@
-# Check no. is of 2 Digits
+# Check no. is +ve, -ve or 0
 
-x = int(input("Enter a no : "))
+a = int(input("Enter a no. : "))
 
-if x >= 10 and x <= 99:
-    print("Given no is a 2 Digit no")
+if a > 0:
+    print("No. is +ve")
+elif a < 0:
+    print("No is -ve")
 else:
-    print("No is not a 2 Digit no.")
+    print("No. is Zero")
