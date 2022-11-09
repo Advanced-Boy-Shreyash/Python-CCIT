@@ -18,3 +18,10 @@ a = 1
 while a <= 100:
     print(a, end=",")
     a += 1
+
+# All no From 100 to 1 using While Loop
+
+a = 101
+while a >=1:
+    print(a)
+    a -= 1
