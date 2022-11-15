@@ -35,9 +35,9 @@ print(c)
 
 # Count all Persons who are Eligible for Voting
 
-age=[45,54,8,8,7,65,45,21,5,4,74]
-c=0
+age = [45, 54, 8, 8, 7, 65, 45, 21, 5, 4, 74]
+c = 0
 for v in age:
-    if v>18:
-        c+=1
+    if v > 18:
+        c += 1
 print(c)
