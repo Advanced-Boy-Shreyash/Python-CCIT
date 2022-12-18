@@ -13,7 +13,7 @@ def display(fn):
         print(fn(i))
 
 
-print("Squares are :",end=" ")
+print("Squares are :")
 display(sqr)
 print("Cubes are :")
 display(cube)
