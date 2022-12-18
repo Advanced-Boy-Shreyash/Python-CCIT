@@ -5,5 +5,6 @@ def test():
         return "Welcome to CCIT"
     return (message)
 
-result=test()
+
+result = test()
 print(result())
